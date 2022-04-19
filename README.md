@@ -1,0 +1,2 @@
+# TreinamentoQt
+Treinamento introdutório frameworkQt
