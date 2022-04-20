@@ -15,7 +15,6 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -40,7 +39,6 @@ public:
     QPushButton *pushButton;
     QPushButton *pushButton_9;
     QMenuBar *menubar;
-    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MeusLayouts)
     {
@@ -141,9 +139,6 @@ public:
         menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 782, 22));
         MeusLayouts->setMenuBar(menubar);
-        statusbar = new QStatusBar(MeusLayouts);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        MeusLayouts->setStatusBar(statusbar);
 
         retranslateUi(MeusLayouts);
 
